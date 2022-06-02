@@ -1,0 +1,82 @@
+.search-main {
+    margin-left: 4%;
+  
+}
+
+.search-input-main {
+    margin-top: 30px;
+}
+
+.search-buttom {
+    position: absolute;
+    margin: 9px -100px;
+   width: 80px;
+   height: 37px;
+   background-color: #0096c7;
+   border: 0.5px gray solid;
+
+}
+.search-input{
+    width: 79%;
+    height: 50px;
+    background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1653548596/weatherApp/bx-search_ioxpuw.svg');
+    background-repeat: no-repeat;
+    background-position: 20px 17px;
+    margin-left: 8%;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 14px 10px 0px, rgba(14, 30, 37, 0.32) 0px 2px 3px 0px;
+    outline: none;
+    text-align: center;
+    
+}
+
+.search-resultss {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(300px, 1fr));
+    
+}
+
+
+.search-results-main {
+    margin: 50px 50px;
+    background-color: gray;
+}
+
+.search-name {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parent-search{
+    background: #ffffff;
+    width: 280px;
+    height: 560px;
+    margin: 1% 2%;
+
+}
+  
+.parent-search-1{
+    width: 92%;
+    margin-left: 2%;
+    height: 560px;
+
+}
+
+@media screen and (max-width: 672px) {
+    .search-buttom {
+    position: absolute;
+    margin: 9px -70px;
+   width: 70px;
+   height: 37px;
+
+}
+}
+
+@media screen and (max-width: 400px) {
+    .search-main {
+        margin-left: 0%;
+    }
+}
+

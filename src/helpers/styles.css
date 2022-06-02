@@ -1,0 +1,22 @@
+.hour-main  {
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    justify-content: space-between;
+}
+
+.hour-img {
+    width: 60px;
+}
+
+.hour-text {
+    width: 30%;
+    margin: auto 0% auto 0%;
+}
+
+
+.hour-temp {
+  margin: auto 0% auto 0% ;
+  padding-left: 5%;
+}

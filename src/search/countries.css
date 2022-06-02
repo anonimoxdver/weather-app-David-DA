@@ -1,0 +1,611 @@
+.parent-1{
+    background: #ffffff;
+    width: 280px;
+    height: 560px;
+    margin: 1% 1%;
+    position: absolute;
+    cursor: pointer;
+}
+  
+.parentActive-1{
+    width: 92%;
+    margin-left: 2%;
+    height: 560px;
+    z-index: 1;
+    position: absolute;
+}
+
+.parent-2 {
+    background: #ffffff;
+    width: 280px;
+    height: 560px;
+    margin: 1% 25%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.parentActive-2 {
+    width: 92%;
+    margin-left: 1%;
+    height: 560px;
+    z-index: 1;
+    position: absolute;
+}
+
+
+.parent-3 {
+    background: #ffffff;
+    width: 280px;
+    height: 560px;
+    margin: 1% 49%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.parentActive-3{
+    width: 92%;
+    margin-left: 1%;
+    height: 560px;
+    z-index: 1;
+    position: absolute;
+}
+
+.parent-4 {
+    background: #ffffff;
+    width: 280px;
+    height: 560px;
+    margin: 1% 72%;
+    position: absolute;
+       cursor: pointer;
+  
+}
+
+.parentActive-4{
+    width: 92%;
+    margin-left: 1%;
+    height: 560px;
+    z-index: 1;
+    position: absolute;
+}
+
+  
+
+  .isopen-main {
+    background: linear-gradient(250deg, #0096c7, #219ebc);
+    background-repeat: no-repeat;
+    width: 98%;
+    height: 640px;
+    margin-top:   2% ;
+    margin-bottom: 3%;
+  }
+
+
+.card-countries {
+    display: flex;
+    flex-wrap: wrap;
+    padding:  20px 10px 8px;
+    font-size: 2.5vh;
+
+}
+.card-countries1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding:  20px;
+    padding-bottom: 0px;
+
+
+}
+
+
+.card-location-image {
+    margin-right: 10px;
+    width: 24px;
+
+}
+
+.card-location {
+    margin-right: 8px;
+    
+ 
+}
+
+.card-main-information {
+    width: 230px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.card-main-information-open {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto ;
+    border-radius: 10px;
+    
+
+}
+
+.card-main-day-1 {
+    height: 500px;
+    width: 26%;
+    padding-top: 5px;
+
+    position: absolute;
+    margin: -0% 5%;
+}
+
+.card-main-information-open-search {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.card-main-information-open-search-1 {
+    width: 220px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.card-information-open-1 {
+    height: 500px;
+    width: 26%;
+    padding-top: 5px;
+
+    position: absolute;
+    margin: 0% 35%;
+}
+
+.card-information-open-2 {
+    height: 500px;
+    width: 26%;
+    padding-top: 5px;
+
+    position: absolute;
+    margin: -0% 67%;
+}
+.card-main-information-day-2 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin:  auto ;
+    border-radius: 10px;
+}
+
+
+
+
+.card-main-information-day-3 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+  margin: auto;
+    border-radius: 10px;
+}
+
+
+.card-main-information-day-3-search {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto ;
+    border-radius: 10px;
+    
+}
+
+.card-main-information-day-2-search {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.card-information-day-1 {
+    
+    height: 501px;
+    width: 100%;
+    padding-top: 5px;
+    margin: 0% auto;
+}
+
+.card-main-imformation {
+
+    height: 500px;
+    width: 100%;
+    padding-top: 5px;
+      margin: auto;
+}
+ 
+.card-information-day-2 {
+    
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.card-information-day-main-1 {
+    height: 503px;
+    width: 100px;
+    padding-top: 2px;
+    margin: 0% auto;
+}
+
+
+.card-img-icon {
+    display: block;
+    margin: 0px auto;
+    align-self: center;
+    
+    width: 120px;
+}
+
+
+
+.card-temperature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.card-mintemp {
+    margin: 0px 0px 0px 0px;
+    padding-top: 10px;
+
+}
+
+.card-maxtemp {
+    margin: 0px 0px 0px 0px;
+    padding-top: 10px;
+}
+
+.card-mintemp-2 {
+    margin: 0px 0px 0px 50px;
+    padding-top: 10px;
+    
+}
+
+.card-maxtemp-2 {
+    margin: 0px 50px 0px 0px;
+    padding-top: 10px;
+
+}
+
+.card-mintemp-3 {
+    margin: 0px 0px 0px 50px;
+    padding-top: 10px;
+    
+}
+
+.card-maxtemp-3 {
+    margin: 0px 50px 0px 0px;
+    padding-top: 10px;
+
+}
+
+
+
+.card-span-min {
+    position: absolute;
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+.card-span-max {
+    position: absolute;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.card-span-max-2 {
+    position: absolute;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.card-actualTemperature {
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+.card-text {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.card-date {
+    font-size: 12px;
+    text-align: center;
+}
+
+.card-separator {
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin: 10px auto 10px auto;
+}
+
+
+.card-wind-clouds-humidity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0% 10%;
+}
+
+.card-img-wind {
+    width: 25px;
+}
+
+.card-img-clouds {
+    width: 25px;
+}
+
+.card-img-humidity {
+    width: 25px;
+}
+
+.card-1-wind {
+    font-size: 13px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.card-2-clouds {
+    font-size: 13px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.card-3-humidity {
+    font-size: 13px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.card-span-wind {
+    position: absolute;
+    margin: 16px 10px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.card-span-clouds {
+    position: absolute;
+    margin: 16px -0px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.card-span-humdity {
+    position: absolute;
+    margin: 16px -10px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.card-hours-main {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 20% auto;
+   
+ 
+}
+
+
+.card-hours-main-2{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 20% auto;
+
+ 
+}
+
+
+.card-button-day{
+    text-align: center;
+    margin-bottom: 4px;
+    display: none;
+}
+
+
+
+.open {
+    opacity: 0;
+    display: none;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .card-img-icon {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    .parent-2 {
+        display: none;
+    }
+    
+  
+
+    .parent-1 {
+      width: 84%;
+    }
+      .parentActive-1 {
+        height: 730px;
+        width: 89%;
+    }
+    .card-main-information {
+        width: 80%;
+        margin: 5% auto;
+    }
+    .card-hours-main-2 {
+        margin: 20% auto;
+       
+    }
+
+    .card-hours-main {
+        margin: 20% auto;
+        
+    }
+  
+
+    .card-information-open-2{
+        height: 84%;
+    }
+
+    .card-information-open-1{
+        height: 84%;
+    }
+
+    .card-main-day-1 {
+        height: 84%;
+    }
+   .card-img-humidity {
+       padding-top: 10px;
+   }
+
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 672px)  {
+    .card-hours-main {
+        margin: 20% auto;
+        
+    }
+
+    .parent-1 {
+        height: 800px;
+    }
+
+    .isopen-main {
+        height: 820px;
+    }
+}
+
+@media screen and (min-width: 698px) and (max-width: 1031px)  {
+
+
+
+    .card-button-day {
+        display: initial;
+        margin-left: 47%;
+    }
+
+    .button-day-1 {
+        opacity: 0;
+    }
+
+
+      
+    .card-main-information-day-1open {
+        display: none;
+    }
+       
+    }
+
+
+
+@media screen and (max-width: 697px) {
+
+
+
+
+ 
+
+    .card-button-day {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 1292px) {
+
+    .parent-4 {
+        display: none;
+    }
+
+    .parent-3 {
+        margin-left: 63%;
+    }
+
+    .parent-2 {
+        margin-left: 35%
+}
+    .parent-1 {
+        margin-left: 5%
+}
+    .parentActive-1 {
+        margin-left: 1%;
+    }
+
+    .parentActive-2 {
+        margin-left: 1%;
+    }
+
+    .parentActive-3 {
+        margin-left: 1%;
+    }
+
+    .parentActive-4 {
+        margin-left: 1%;
+    }
+}
+
+
+@media screen and (max-width: 1053px) {
+    .parent-3 {
+        display: none;
+    }
+
+    .parent-2 {
+        margin-left: 50%
+}
+    .parent-1 {
+        margin-left: 5%
+}
+
+.parentActive-1 {
+    margin-left: 1%;
+}
+
+.parentActive-2 {
+    margin-left: 1%;
+}
+
+}
+
+@media screen and (max-width: 896px) {
+    .card-maxtemp-2 {
+        margin: 0px;
+    }
+
+    .card-mintemp-2 {
+        margin: 0px;
+    }
+
+    .card-span-clouds {
+     font-size: 9px;
+        width: 30px;
+        overflow: hidden;
+    }
+}
