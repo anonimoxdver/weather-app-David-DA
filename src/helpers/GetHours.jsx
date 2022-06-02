@@ -1,4 +1,6 @@
 import './styles.css'
+import {useRef} from 'react'
+
 
 const DEFAULT_ICON ='//cdn.weatherapi.com/weather/64x64/night/116.png'
 const DEFAULT_TEXT = 'Partly cloudy'
@@ -10,6 +12,7 @@ export const GetHours = ({
   text = DEFAULT_TEXT
 }) => {
 
+
      return (
          <div className="hour-main">
 
@@ -19,7 +22,7 @@ export const GetHours = ({
            
            <img src={icon} alt=""  className='hour-img'/>
 
-           <div className='hour-text'>
+           <div className='hour-text' >
             {text}
            </div>
 

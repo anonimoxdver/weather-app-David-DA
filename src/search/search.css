@@ -80,3 +80,8 @@
     }
 }
 
+.search-resultss {
+ 
+    opacity: 0;
+    animation: revealText 3s forwards;
+  }

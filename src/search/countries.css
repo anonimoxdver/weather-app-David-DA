@@ -213,7 +213,7 @@
     
     height: 501px;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 4px;
     margin: 0% auto;
 }
 
@@ -304,7 +304,8 @@
     position: absolute;
     font-size: 14px;
     margin-top: -10px;
-    margin-left: 15px;
+    margin-left: 9px;
+
 }
 
 .card-span-max-2 {
@@ -344,7 +345,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0% 10%;
+    margin: 0% 9%;
 }
 
 .card-img-wind {
@@ -402,7 +403,8 @@
     overflow: hidden;
     overflow-y: scroll;
     margin: 20% auto;
-   
+
+   border-radius: 7px;
  
 }
 
@@ -430,6 +432,27 @@
     opacity: 0;
     display: none;
 }
+
+
+.card-information-day-1{
+    animation-delay: 5s;
+  }
+  .card-information-day-2 {
+    animation-delay: 5s;
+  }
+  .animation-fourth {
+    animation-delay: .325s;
+  }
+  @keyframes revealText {
+    from {
+      transform: translateY(40px);
+  
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
 
 
 
@@ -488,9 +511,15 @@
 
 @media screen and (min-width: 350px) and (max-width: 672px)  {
     .card-hours-main {
-        margin: 20% auto;
+        margin: 30% auto;
         
     }
+
+    .card-hours-main-2 {
+        margin: 30% auto;
+        
+    }
+
 
     .parent-1 {
         height: 800px;

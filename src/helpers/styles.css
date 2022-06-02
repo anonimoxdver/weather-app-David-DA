@@ -2,8 +2,9 @@
     width: 99%;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid grey;
+    border: 1px solid #808080;
     justify-content: space-between;
+    border-style: solid none solid none;
 }
 
 .hour-img {

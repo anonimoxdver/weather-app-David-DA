@@ -19,18 +19,13 @@ export const SearchMain = () => {
 const [data, setData] = useState([])
  const [inputApi, setInputValue] = useState('')
 
-
- const [buttonOpen3, setButtonOpen3] = useState(true)
 useEffect(() => {
 
 getData(inputApi)
   .then(setData)
 
 }, [inputApi])
-console.log(data)
 
-
-console.log(useScreenSize())
 const { width }   = useScreenSize()
 const settings = {
   speed: 500,
@@ -39,7 +34,7 @@ const settings = {
   nextArrow: <SampleNextArrow />,
   prevArrow: <SamplePrevArrow />
 };
-console.log(ImgClimate)
+
 
   return (
     <div className='search-main'>
@@ -63,25 +58,25 @@ console.log(ImgClimate)
  
 
         <div className='search-resultss' >
-        
-          {
+        {
+            data == null || data == 'undefined' || data == '' ? '': 
             width > 696 ?
           
-                              data == null || data == 'undefined' || data == '' ? '': 
+                             
 
                 <>
                 <div className={ `${Climate[data.text0]}  card-information-day-1`}>
-                  <CardContainerday1  classname='card-information-day-1' classname4='card-img-icon-2' icon={`${ImgClimate[data.text0]}`} {...data} />
+                  <CardContainerday1  classname='card-information-day-1' classname4='card-img-icon-2' icon={`${ImgClimate[data.text0]}`}  localtime='2022-06-01'{...data} />
                 </div>
                 <div className={ `${Climate[data.text1]}  card-information-day-2`}>
                    <CardContainer icon={`${ImgClimate[data.text1]}`} classname2='card-mintemp-3' classname3='card-maxtemp-3' className1='card-main-information-day-2' classname='card-main-information-day-2-search'{...data}/>
                 </div>
-                <div className={ buttonOpen3 ? `${Climate[data.text2]}  card-information-day-2`: ' card-main-information-day-1open' }>
+                <div className={  `${Climate[data.text2]}  card-information-day-2 animation-fourth`}>
                     <CardContainerDay2  icon={`${ImgClimate[data.text2]}`} classname2='card-mintemp-3' classname3='card-maxtemp-3' className1='card-main-information-day-3' classname='card-main-information-day-3-search'{...data} />
                 </div>
            </>
                     : 
-                    data == null || data == 'undefined' || data == '' ? '': 
+                  
 
                     <Slider {...settings}>
                     <div className={ `${Climate[data.text0]}  card-information-day-1`}>
@@ -90,12 +85,14 @@ console.log(ImgClimate)
                     <div className={ `${Climate[data.text1]}  card-information-day-2`}>
                        <CardContainer icon={`${ImgClimate[data.text1]}`} classname2='card-mintemp-3' classname3='card-maxtemp-3' className1='card-main-information-day-2' classname='card-main-information-day-2-search'{...data}/>
                     </div>
-                    <div className={ buttonOpen3 ?  `${Climate[data.text2]}  card-information-day-2` : ' card-main-information-day-1open' }>
+                    <div className={ `${Climate[data.text2]}  card-information-day-2`  }>
                         <CardContainerDay2 icon={`${ImgClimate[data.text2]}`} classname2='card-mintemp-3' classname3='card-maxtemp-3' className1='card-main-information-day-3' classname='card-main-information-day-3-search'{...data} />
                     </div>
                </Slider >
 
-          }
+          
+        }
+       
           
        </div>
 

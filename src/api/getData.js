@@ -14,7 +14,7 @@ export const getData = async(inputApi = '') => {
   
   const res = await window.fetch(url, options)
   const resp = await res.json()
-  console.log(resp)
+
  
   
   const { location, current, forecast } = resp;

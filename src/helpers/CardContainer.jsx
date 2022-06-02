@@ -1,6 +1,6 @@
 import React from 'react'
 import { GetHours } from './GetHours'
-
+import { NewDate, NewHour} from '../helpers/GetDates'
 const data1 = {
  
   mintemp1: 1,
@@ -15,33 +15,17 @@ const data1 = {
   hours2: 123,
   classname: '',
   className1: '',
-  icon: ''
-}
-  const NewDate = ({date }) => {
-    const previusDate =new Date(date)
-    const actualDate = previusDate.toDateString()
-  
-  return (
-    <div>{actualDate} </div>
-  )
-
+  icon: '',
+  localtime: ''
 }
 
-const NewHour = ({date }) => {
-  const previusDate =new Date(date)
-  const actualDate = previusDate.toLocaleTimeString()
-
-return (
-  <div>{actualDate} </div>
-)
-
-}
 
 
 
 export const CardContainerday1 = (data = data1) => {
 
 
+ 
   return (
     <div className={`${data.className}`}>
     <div className= "card-main-information-open-search">
@@ -55,7 +39,7 @@ export const CardContainerday1 = (data = data1) => {
 
    <div className="card-text">{data.text0} </div>
  <div className="card-date">
- <NewDate date={`${data.localtime}`} />
+ <NewDate date={`${"2022-06-02"}`} />
  </div>
 
  <div className="card-separator"></div>
@@ -88,7 +72,7 @@ export const CardContainerday1 = (data = data1) => {
        />
        <div className="card-3-humidity"><span className="card-span-humdity">Humidity</span>{data.humidity}% </div>
    </div>
-         <div className="card-hours-main">
+         <div className="card-hours-main"  >
  
       {data == null || data == 'undefined' || data == '' ? '':
         Object.values(data.hours).map(( hours) => (
@@ -97,7 +81,7 @@ export const CardContainerday1 = (data = data1) => {
              <GetHours icon={hours.condition.icon} temp_c={hours.temp_c} text={hours.condition.text} />
              
           </div>
-        ))
+        )) 
       }
 
         
@@ -131,7 +115,7 @@ export const CardContainer = (data = data1) => {
 
     <div className="card-text">{data.text1} </div>
   <div className="card-date">
-        <NewDate date={`${data.date1}`} />
+        <NewDate date={`${data.localtime}`} />
   </div>
 
   <div className="card-separator"></div>
