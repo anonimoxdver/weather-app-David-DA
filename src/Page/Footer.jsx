@@ -7,7 +7,7 @@ export const Footer = () => {
     <footer className='footer-main'>
         <div className='footer-div'>
             App hecha gracias a 
-            <a href="https://rapidapi.com/hub" >RapiAPI</a> <br />
+            <a href="https://rapidapi.com/hub" >RapidAPI</a> <br />
             y a MiduDev siguelo en <a href="https://www.twitch.tv/midudev">Twitch</a>
         </div>
         
